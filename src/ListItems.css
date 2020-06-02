@@ -1,0 +1,50 @@
+.list{
+    color: #2860B5;
+    width: 300px;
+    margin: 20px auto;
+    min-height: 50px;
+    background-color: lavender;
+    border-radius: 5px;
+    font-family: 'DM Mono', monospace;
+}
+.list p{
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+    font-family: 'DM Mono', monospace;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #2860B5;
+    font-size: 18px;
+    font-family: 'DM Mono', monospace;
+    font-weight: bolder;
+}
+.list p input:focus{
+    outline: none;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #2860B5;
+}
+.itemsAnim-enter{
+    opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+.itemsAnim-leave{
+    opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}
